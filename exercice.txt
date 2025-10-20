@@ -1,0 +1,61 @@
+    # COMMENT EXÉCUTÉ CE PROJET:
+    1. Dans votre Terminal, Faire git clone git@github.com:sanogo78/Traitement-de-fichier-avec-pandas.git
+    pour cloner le dépot dans le repertoire de votre choix.
+
+    2. Créer un environnement virtul  et faire pip -r requirements.tx 
+    pour intaller toutes les dépendances pour la bonne exécution du code.
+
+    
+# EXERCICE A FAIRE
+
+        ÉNONCÉE 1
+
+Cet exercice consiste a mettre en pratique les bases de langage.
+
+1. Créer un dossier nommez (exercie)
+2. Créer un environnement de travail nommez '(learning)'
+3. Dans l'environnement de travail installer les packages suivants:
+   - pandas
+   - numpy
+4. Ouvrir le projet dans ton éditeur de `code`
+
+# Début avec le package pandas
+
+- importer pandas
+- charger la donnée dépuis ce lien : https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/data/titanic.csv
+
+* Afficher les 10 première ligne du fichier
+* Afficher les 10 dernière ligne du fichier
+* Afficher les informations sur les données
+* Afficher les types de données
+* Transforme les données CSV en excel
+  - sauvegarde le dans un fichier nommez (covert.xlsx)
+
+
+        ÉNONCÉE 2
+(Application des Selections de sous ensemble d'un dataframe)
+Dans la suite de l'exercie 1, vous allez appliquer la sélection sur des sous ensemble
+
+1. Ciblé la colonne âge, après avoir créer la variable par le nom de votre choix:
+  a) affichez l'entête
+  b) affichez les types de données
+  c) Affichez le nombre total de ligne
+
+2. Cibler deux 02 colonnes (Age et Sex)
+  a) Affichez les 10 premières et 5 dernières lignes
+  b) affichez les types de données
+  c) Affichez le nombre total de ligne 
+
+3. Filtrage
+(Cette partie est basée sur des condition, comme prérequis vous devez savoir utilisez les condition pour mieux comprendre)
+       
+        Colonne Age Ciblée
+ a) Après avoir créer la variable Afficher les 5 lignes 1ère dont l'Age est supérieur à 50
+ b) Affichez le nombre de linge Total avec cette condition
+
+        colonne Pclass Ciblée
+(Puisqu'il y avait des classes pour les tickets)
+  a) Affichez les 10 1ère ligne des personnes possedants les classes (2 et 3)
+  b) Affichez les 10 1ère ligne des personnes possedants les classes (1 uniquement)
+  c) Affichez les nombre de ligne total pour les classes (2 et 3)
+  d) Affichez les nombre de ligne total pour la classe 1
